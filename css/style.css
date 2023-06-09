@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1336px;
+  position: relative;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 1);
+  left: 0;
+  right: 0;
+}
+.menu {
+  border: none;
+  display: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  background-color: #01bab3;
+}
+
+nav {
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  padding-right: 98px;
+  padding-left: 99px;
+  max-width: 100%;
+}
+.link1 {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+}
+.link2 {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+}
+.link3 {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.nav-link {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration-line: none;
+  color: rgba(0, 0, 0, 0.85);
+}
+.hero-content img {
+  padding-top: 40px;
+  padding-bottom: 24px;
+}
+.hero {
+  background: #f4f8fa;
+  padding-top: 24px;
+  padding-bottom: 111px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  background: #fff;
+  /* box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.04),
+    0px 4px 56px rgba(0, 0, 0, 0.04); */
+  border: none;
+  width: 496px;
+  height: 849px;
+  text-align: center;
+}
+.heading1 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 39px;
+  padding-bottom: 16px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.85);
+}
+.description {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  color: #444150;
+}
+.log-in {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  /* #01BAB3 */
+
+  color: #01bab3;
+}
+input {
+  display: block;
+}
+.fields {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 56px;
+}
+label {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #444150;
+  /* text-align: start; */
+}
+.field input {
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  width: 200px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+.value-text {
+  padding-left: 10px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #444150;
+}
+.second-name {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #444150;
+
+  opacity: 0.5;
+}
+
+.form-container {
+  padding: 0 40px;
+}
+
+.field {
+  text-align: start;
+}
+.field2 {
+  text-align: start;
+  padding-top: 24px;
+}
+
+.cont-button a {
+  text-decoration-line: none;
+}
+.klas {
+  text-decoration-line: none;
+  color: #fff;
+}
+.field2 input {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  width: 416px;
+  height: 48px;
+  margin-top: 8px;
+}
+.radios {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  background: #ffffff;
+  /* #01BAB3 */
+
+  border: 2px solid #01bab3;
+  border-radius: 4px;
+  width: 200px;
+  height: 48px;
+  margin-top: 8px;
+}
+.radios2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  background: #ffffff;
+  /* #01BAB3 */
+  border: 1px solid #d9d9d9;
+
+  border-radius: 4px;
+  width: 200px;
+  height: 48px;
+  margin-top: 8px;
+}
+.all-radio {
+  padding-top: 56px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.gender {
+  display: block;
+}
+
+.skype {
+  text-align: start;
+  padding-top: 24px;
+}
+
+.skype {
+  display: block;
+}
+.skype input {
+  margin-top: 8px;
+  width: 416px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+.login-text {
+  padding-left: 10px;
+}
+
+.promo {
+  text-align: start;
+  padding-top: 24px;
+}
+
+.promo input {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  height: 48px;
+  width: 416px;
+}
+.promo-text {
+  padding-left: 8px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  color: #ffffff;
+
+  /* #FFFFFF */
+}
+.btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  background: #01bab3;
+  border-radius: 4px;
+  border: none;
+  width: 416px;
+  color: #ffffff;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+  color: #ffffff;
+}
+.btn a input {
+  background-color: #01bab3;
+  border: none;
+  color: #ffffff;
+}
+.footer-content {
+  background-color: #f4f8fa;
+}
+.footer {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.65);
+  padding-bottom: 25px;
+}
+#cont-button {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 830px) {
+  .nav-items {
+    display: none;
+  }
+  .menu {
+    display: inline-block;
+  }
+}
+@media (max-width: 500px) {
+  .form-container {
+    padding: 0 0;
+  }
+  .all-radio {
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 56px;
+  }
+  .field2 input {
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    width: 200px;
+    height: 48px;
+    margin-top: 8px;
+  }
+  .field2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+  }
+  .field2 label {
+    text-align: start;
+  }
+  .field {
+    text-align: center;
+  }
+  .fields {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 56px; */
+    gap: 24px;
+  }
+  .skype input {
+    margin-top: 8px;
+    width: 200px;
+    height: 48px;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+  }
+  .skype {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+  }
+  .promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+  }
+  .promo input {
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    height: 48px;
+    width: 200px;
+  }
+  .btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    background: #01bab3;
+    border-radius: 4px;
+    border: none;
+    width: 200px;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .footer {
+    font-family: "?????";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.65);
+    padding-bottom: 25px;
+  }
+  .hero-content {
+    background: #fff;
+    /* box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.04),
+      0px 4px 56px rgba(0, 0, 0, 0.04); */
+    border: none;
+
+    height: 1000px;
+    text-align: center;
+  }
+  nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
